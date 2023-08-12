@@ -30,3 +30,21 @@ register("chat", (player,event) => {
     }
 }).setCriteria("[BOSS] Maxor: WHO POWERED THOSE LEVERS?!").setContains();
 
+let cbClicked = false
+
+register("playerInteract", (action, pos, event) => {
+    if(cbClicked) return
+    if(action.toString() !== "RIGHT_CLICK_BLOCK") return
+    if(Player.lookingAt()?.type?.getRegistryName() !== "minecraft:command_block") return
+    if(Settings.termialsolver){
+        cbClicked = true
+    }
+})
+
+register("GuiOpened", (gui) => {
+    if(!cbClicked) return
+    Client.scheduleTask(2, ()=>{
+        Player.getContainer().click(50)
+        cbClicked = false
+    })
+}) 
