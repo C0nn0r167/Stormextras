@@ -1,3 +1,4 @@
+import Settings from "./config";
 
 new KeyBind("Pets", Keyboard.DOWN, "!§4Stormalpha").registerKeyPress(() => {
     ChatLib.command("pet")
@@ -16,5 +17,6 @@ new KeyBind("Bazzar", Keyboard.LEFT, "!§4Stormalpha").registerKeyPress(() => {
 })
 
 new KeyBind("StormGUI", Keyboard.KEY_RCONTROL, "!§4Stormalpha").registerKeyPress(() => {
-    
+    Settings.openGUI()
+    sa = true
 })
