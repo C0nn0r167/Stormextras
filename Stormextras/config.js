@@ -119,7 +119,7 @@ class Settings {
         category: "Dungeons",
         subcategory: "Terminals",
     })
-    terminalSolverToggle = false;
+    terminalsolver = false;
 
     //COPYCHAT
     @SwitchProperty({
