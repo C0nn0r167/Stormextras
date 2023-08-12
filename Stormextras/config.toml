@@ -1,0 +1,59 @@
+
+[angelica]
+
+	[angelica.burrows]
+		angelica_prediction = false
+		angelica_mob_alert = false
+
+[slayer]
+
+	[slayer.trading]
+		"&4slayer_trading_help" = false
+
+	[slayer.bosses]
+		"&4rev_&7boss_drops" = false
+		"&8tara_&7boss_drops" = false
+		"&fsven_&7boss_drops" = false
+
+[fairyhearts]
+
+	[fairyhearts.fairyhearts]
+		"&cfairyhearts" = false
+
+[autowarps]
+
+	[autowarps.ranked]
+		"&5dark_auction" = false
+
+	[autowarps.unranked]
+		"&6&lone_soul" = false
+
+[copy_chat]
+
+	[copy_chat.toggle]
+		copy_chat = false
+
+	[copy_chat.colors]
+		copy_colors = false
+
+[fishing]
+
+	[fishing.sea_creatures]
+		fishing_werewolf_alert = false
+		fishing_sea_emp_alert = false
+
+[dungeons]
+
+	[dungeons.maxor]
+		"&4maxor_&fchat_helper" = false
+
+	[dungeons.terminals]
+		terminal_solver = false
+
+[mining]
+
+	[mining.abilities]
+		"&6fortune_boost" = false
+		"&6auto_boost" = false
+		"&6speed_boost" = false
+
