@@ -70,3 +70,30 @@ register("chat", (player,event) => {
         World.playSound("random.anvil_land", 10, 10)
     }
 }).setCriteria("&d&lPRAY RNGesus &7(&5Web Catalyst&7)").setContains();
+
+
+
+
+
+
+
+
+
+
+
+
+register("chat", (player,event) => {
+    if(Settings.slayerhelp){
+        Client.showTitle("&aKILL THIS BOSSS", "§7YOUR BOSS", 10, 5, 10)
+        World.playSound("player.levelup", 10, 10)
+    }
+}).setCriteria("&r &r&a&r&a&lSLAYER QUEST COMPLETE!&r").setContains();
+
+import Settings from "./config";
+
+register("chat", (player,event) => {
+    if(Settings.slayerhelp){
+        Client.showTitle("&aKILL THIS BOSSS", "§7YOUR BOSS", 10, 5, 10)
+        World.playSound("player.levelup", 100, 100)
+    }
+}).setCriteria("&r &r&a&r&a&lSLAYER QUEST COMPLETE!&r").setContains();
