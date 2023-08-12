@@ -13,25 +13,6 @@ import "../Stormextras/slayerhelp.js";
 import "../Stormextras/autowarp.js";
 import Settings from "./config";
 
-let sa = false
-let sadone = false
-
-register("renderOverlay", myRenderOverlay);
-
-function myRenderOverlay() {
-    if(sa == false){
-        Renderer.drawString("&e&l/sa for gui", 455, 300);
-        Renderer.drawString("&e(Will disapear when the gui is opened)", 395, 310)
-    }
-}
-
-
 register("command", (user) => {
-    ChatLib.chat("&6Stormextras &bVERSION &f1.0.8!\n&4Use /sa to open the stormextras gui")
+    ChatLib.chat("&6Stormextras &bVERSION &f1.0.9!\n&4Use Right_Control to open the gui")
 }).setName("shelp");
-
-// to open the config gui use the "openGUI" function
-register("command", (user) => {
-    Settings.openGUI()
-    sa = true
-}).setName("stormextras").setAliases("sa");
