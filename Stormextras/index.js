@@ -8,8 +8,6 @@ import "../Stormextras/angelica.js";
 import "../Stormextras/copy.js";
 import "../Stormextras/Keybinds.js";
 import "../Stormextras/config.js";
-import "../Stormextras/commands.js";
-import "../Stormextras/slayerhelp.js";
 import "../Stormextras/autowarp.js";
 import Settings from "./config";
 
