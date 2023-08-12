@@ -1,0 +1,9 @@
+{
+	"name": "moredungeons",
+	"author": "Connor",
+	"description": "&4moredungeons made by connor for the real homies",
+	"entry": "index.js",
+	"version": "1.0.0",
+	"requires": [
+	]
+}
