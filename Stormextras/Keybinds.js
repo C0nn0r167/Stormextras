@@ -1,21 +1,28 @@
 import Settings from "./config";
 
-new KeyBind("Pets", Keyboard.DOWN, "!§4Stormalpha").registerKeyPress(() => {
-    ChatLib.command("pet")
+let pet = new KeyBind("Pets", "", " !§4Stormalpha")
+
+register('step', () => {
+    if (pet.isPressed()) ChatLib.command('pet')
 })
 
-new KeyBind("Wardrobe", Keyboard.RIGHT, "!§4Stormalpha").registerKeyPress(() => {
-    ChatLib.command('wardrobe')
+let wardrobe = new KeyBind("Wardrobe", "", " !§4Stormalpha")
+
+register('step', () => {
+    if (wardrobe.isPressed()) ChatLib.command('wardrobe')
 })
 
-new KeyBind("Enderchest", Keyboard.UP, "!§4Stormalpha").registerKeyPress(() => {
-    ChatLib.command('ec')
+let ec = new KeyBind("Enderchest", "", " !§4Stormalpha")
+
+register('step', () => {
+    if (ec.isPressed()) ChatLib.command('ec')
 })
 
-new KeyBind("Bazzar", Keyboard.LEFT, "!§4Stormalpha").registerKeyPress(() => {
-    ChatLib.command("bz)
-})
+let bz = new KeyBind("Bazzar", "", " !§4Stormalpha")
 
+register('step', () => {
+    if (bz.isPressed()) ChatLib.command('bz')
+})
 let sa = false
 
 register("renderOverlay", myRenderOverlay);
