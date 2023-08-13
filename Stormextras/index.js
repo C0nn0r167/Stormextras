@@ -1,14 +1,14 @@
-import "../Stormextras/waypoints.js";
-import "../Stormextras/slayer.js";
-import "../Stormextras/fishing.js";
-import "../Stormextras/angelica.js";
-import "../Stormextras/dungeons.js";
-import "../Stormextras/mining.js";
-import "../Stormextras/angelica.js";
-import "../Stormextras/copy.js";
-import "../Stormextras/Keybinds.js";
-import "../Stormextras/config.js";
-import "../Stormextras/autowarp.js";
+import "../Stormextras-Connor/waypoints.js";
+import "../Stormextras-Connor/slayer.js";
+import "../Stormextras-Connor/fishing.js";
+import "../Stormextras-Connor/angelica.js";
+import "../Stormextras-Connor/dungeons.js";
+import "../Stormextras-Connor/mining.js";
+import "../Stormextras-Connor/angelica.js";
+import "../Stormextras-Connor/copy.js";
+import "../Stormextras-Connor/Keybinds.js";
+import "../Stormextras-Connor/config.js";
+import "../Stormextras-Connor/autowarp.js";
 import Settings from "./config";
 
 register("command", (user) => {
